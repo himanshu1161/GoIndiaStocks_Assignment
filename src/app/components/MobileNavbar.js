@@ -20,7 +20,7 @@ const MobileNavbar = ({ setShowComponent }) => {
     <div>
       <nav className="bg-sky-900 w-full h-[50px] flex justify-around lg:hidden">
         <button 
-          className={`text-white text-2xl relative flex-1 focus:outline-none`}
+          className={`text-white text-xl relative flex-1 focus:outline-none`}
           style={{ borderBottom: activeTab === 'first' ? '2px solid red' : 'none' }}
           onClick={() => toggleComponent("first")}
         >
@@ -28,7 +28,7 @@ const MobileNavbar = ({ setShowComponent }) => {
           Discussion Forum
         </button>
         <button 
-          className={`text-white text-2xl relative flex-1 focus:outline-none`}
+          className={`text-white text-xl relative flex-1 focus:outline-none`}
           style={{ borderBottom: activeTab === 'second' ? '2px solid red' : 'none' }}
           onClick={() => toggleComponent("second")}
         >
